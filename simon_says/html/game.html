@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/game.css" />
+    <title>Simon says!</title>
+  </head>
+  <body>
+    <main>
+      <div class="game--container">
+        <h1>Simon says! by Javier</h1>
+        <div class="game--container__gameboard">
+          <div class="game--container__gameboard--top">
+            <div
+              id="topLeft"
+              class="top-left-color gameboard__piece"
+              data-color="top-left"
+            ></div>
+            <div
+              id="topRight"
+              class="top-right-color gameboard__piece"
+              data-color="top-right"
+            ></div>
+          </div>
+          <div class="game--container__gameboard--bot">
+            <div
+              id="botLeft"
+              class="bottom-left-color gameboard__piece"
+              data-color="bot-left"
+            ></div>
+            <div
+              id="botRight"
+              class="bottom-right-color gameboard__piece"
+              data-color="bot-right"
+            ></div>
+          </div>
+          <button id="btnStart" class="btn-start" onclick="startGame()">
+            Empezar a jugar!
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="../js/game.js"></script>
+  </body>
+</html>
