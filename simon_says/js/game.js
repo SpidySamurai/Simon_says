@@ -7,10 +7,24 @@ const btnStart = document.getElementById("btnStart");
 class Game {
   constructor() {
     this.initialize();
+    this.generateSequence();
   }
 
   initialize() {
-    setTimeout(() => btnStart.classList.add("hide"), 1000);
+    setTimeout(() => btnStart.classList.add("hide"), 500);
+    this.nivel = 1;
+    this.colors = {
+      topLeft,
+      topRight,
+      botLeft,
+      botRight,
+    };
+  }
+
+  generateSequence() {
+    this.sequence = new Array(10)
+      .fill(0)
+      .map((n) => Math.floor(Math.random() * 4));
   }
 }
 
