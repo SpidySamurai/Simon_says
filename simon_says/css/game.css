@@ -61,6 +61,18 @@ html {
 .bottom-right-color {
   background: #6ab04c;
 }
+.top-left-color.light {
+  background: #29d1e0;
+}
+.top-right-color.light {
+  background: #da38ff;
+}
+.bottom-left-color.light {
+  background: #ffac4d;
+}
+.bottom-right-color.light {
+  background: #86e060;
+}
 
 .btn-start {
   position: absolute;
@@ -75,7 +87,7 @@ html {
   border: none;
   border-bottom: 4px solid #c4c6c7;
   border-radius: 8px;
-  transition: 0.5s;
+  transition: 0.3s;
   outline: none;
 }
 
