@@ -79,8 +79,8 @@ html {
   position: absolute;
   top: calc(50% - 50px);
   left: calc(50% - 210px);
-  width: 420px;
-  height: 100px;
+  width: 42rem;
+  height: 10rem;
   cursor: pointer;
   font-size: 3em;
   color: #2c3e50;
@@ -105,4 +105,23 @@ html {
 
 .hide {
   display: none;
+}
+
+@media (max-width: 500px) {
+  .game--container h1 {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+  }
+  .game--container__gameboard {
+    max-width: 40vh;
+    max-height: 40vh;
+  }
+  .btn-start {
+    position: absolute;
+    top: calc(50% - 4rem);
+    left: calc(50% - 12.5rem);
+    width: 25rem;
+    height: 8rem;
+    font-size: 2.8rem;
+  }
 }
