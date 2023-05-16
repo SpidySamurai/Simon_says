@@ -25,7 +25,7 @@ The goal of this project is to reinforce JavaScript skills by creating a functio
 ## Usage
 
 1. Clone this repository to your local machine.
-`git clone https://github.com/your-username/your-repository.git`
+`https://github.com/SpidySamurai/Simon_says.git`
 
 2. Open the `index.html` file in your web browser.
 
